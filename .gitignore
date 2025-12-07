@@ -1,0 +1,8 @@
+/bipartite_graph
+/gnn_output
+/graph_data
+/graph_data_one_to_many
+/cleaned_pairs.csv
+/emails_test.csv
+/replies_test.csv
+/.venv
