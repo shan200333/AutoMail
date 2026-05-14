@@ -1,0 +1,71 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+# Envs / secrets
+.env
+.env.*
+
+# ===== Jupyter / VSCode =====
+.ipynb_checkpoints/
+
+.vscode/
+*.code-workspace
+
+# ===== Data / embeddings (generated) =====
+embeddings/
+
+# Project datasets (too large to commit)
+emails.csv
+email_reply_pairs.csv
+*.csv
+
+# ===== Models / checkpoints (generated) =====
+models/
+presentation/models/
+
+# PyTorch Lightning checkpoints
+*.ckpt
+
+# Torch
+*.pt
+*.pth
+*.safetensors
+
+# LoRA / HF artifacts (common)
+adapter_config.json
+training_args.bin
+optimizer.pt
+scheduler.pt
+trainer_state.json
+rng_state.pth
+
+# ===== Logs / outputs =====
+*.log
+*.tmp
+*.bak
+
+# ===== Misc generated artifacts (project-specific) =====
+# Keep committed demo/analysis outputs; ignore only generated result dumps.
+presentation/results/
+bipartite_analysis.png
+bipartite_graph.html
+email_similarity_heatmap.png
+gnn_training_curve.png
+
+

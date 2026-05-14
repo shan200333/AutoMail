@@ -1,0 +1,29 @@
+{
+  "part": "Part 6 \u2014 Phi-3.5-mini QLoRA Fine-tuning",
+  "model": "microsoft/Phi-3.5-mini-instruct",
+  "metrics": {
+    "rouge1": 0.17222797698493306,
+    "rouge2": 0.024411194573658198,
+    "rougeL": 0.10173267385665685
+  },
+  "comparison": {
+    "sbert_baseline": {
+      "recall@1": 0.1055,
+      "mrr": 0.1694795293509601
+    },
+    "gnn_graphsage": {
+      "recall@1": 0.0035,
+      "mrr": 0.013299708514158723
+    },
+    "mmr_retrieval": {
+      "rouge1": 0.4122293962836378,
+      "rouge2": 0.30544361513982793,
+      "rougeL": 0.36909502523648907
+    },
+    "phi35_finetuned": {
+      "rouge1": 0.17222797698493306,
+      "rouge2": 0.024411194573658198,
+      "rougeL": 0.10173267385665685
+    }
+  }
+}

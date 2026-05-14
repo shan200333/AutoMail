@@ -1,0 +1,4 @@
+Final[[:space:]]Major[[:space:]]project/emails.csv filter=lfs diff=lfs merge=lfs -text
+Final[[:space:]]Major[[:space:]]project/email_reply_pairs.csv filter=lfs diff=lfs merge=lfs -text
+emails.csv filter=lfs diff=lfs merge=lfs -text
+email_reply_pairs.csv filter=lfs diff=lfs merge=lfs -text
